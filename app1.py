@@ -14,11 +14,22 @@ import matplotlib.pyplot as plt
 import mplcursors  # Importar mplcursors para mostrar detalles al pasar el cursor por el gráfico
 
 # Documentación y ayuda contextual
-st.sidebar.markdown("### Descripción")
+st.sidebar.markdown("### Ayuda y Documentación")
 st.sidebar.markdown("""
-    Esta aplicación simula el monitoreo de una AFORE, mostrando el saldo en cuenta individual, rendimiento mensual y aportaciones voluntarias.
-    Puedes definir parámetros de simulación y visualizar gráficos y datos correspondientes.
+    Simulación de la cuenta individual:
+    
+    **Instrucciones:**
+    
+    1. La simulación comienza cuando se proporciona un saldo inicial válido y se especifica la duración de la simulación en meses.
+    2. En cada iteración mensual:
+    3. Se genera un rendimiento mensual y una aportación voluntaria más solidaria aleatorios.
+    4. Se calcula la fecha actual basada en el tiempo transcurrido desde el inicio de la simulación.
+    5. Se actualizan los datos en el DataFrame con el saldo actual, rendimiento mensual, aportación voluntaria más solidaria y cálculos relacionados.
+    6. Se actualizan los gráficos (saldo, rendimiento mensual, aportaciones voluntarias más solidarias).
+    7. Los gráficos se muestran en los contenedores definidos en Streamlit.
+    8. Se muestra el DataFrame actualizado con los datos formateados.
 """)
+
 
 # Configuración de la aplicación Streamlit
 st.title('Monitoreo del saldo en una Cuenta Individual de una AFORE')
