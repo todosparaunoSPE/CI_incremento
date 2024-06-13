@@ -28,6 +28,21 @@ st.sidebar.markdown("""
     6. Se actualizan los gráficos (saldo, rendimiento mensual, aportaciones voluntarias más solidarias).
     7. Los gráficos se muestran en los contenedores definidos en Streamlit.
     8. Se muestra el DataFrame actualizado con los datos formateados.
+
+
+    I) Con una cuenta individual en una AFORE, tu saldo tiene el potencial de crecer mes a mes gracias al rendimiento
+    generado por las inversiones y las aportaciones voluntarias que realices. Este crecimiento constante te ayuda
+    a construir un patrimonio sólido para alcanzar tus metas financieras a largo plazo.
+
+    II) A medida que realizas aportaciones voluntarias y se generan rendimientos mensuales, tu saldo en la cuenta individual
+    aumenta gradualmente. Este saldo acumulado se puede utilizar para tu retiro futuro u otros objetivos financieros,
+    proporcionándote seguridad y tranquilidad financiera.
+
+    III) Después de un período de tiempo determinado, podrías ver cómo tu saldo ha crecido significativamente,
+    proporcionándote una base financiera más sólida y la capacidad de tomar decisiones financieras más informadas y seguras.
+    ¡Imagina el potencial de crecimiento que tiene tu cuenta individual en una AFORE!
+    
+    
 """)
 
 
